@@ -1,38 +1,42 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+.app {
+  background-color: #c39005;
+  font-family: 'Eagle Lake', cursive;
+  color: #5b5b5b;
+}
+
+.welcome-header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.start-gen-btn {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-right-items {
+  float: right;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.race-header {
+  text-align: right;
+  display: inline-block;
+  padding: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+.name-header {
+  text-align: right;
+  display: inline-block;
+  padding: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.race-def {
+  text-align: right;
+  display: inline-block;
+  padding: 10px;
+}
+
+.name-def { 
+  text-align: right;
+  display: inline-block;
+  padding: 5px;
 }
