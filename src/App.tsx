@@ -2,8 +2,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { stats } from './components/stats';
 
 function App() {
+  stats();
   return (
     <div className="App">
       <h1 className="welcome-header">Dungeons and Dragons Character/NPC Generator</h1>
