@@ -2,14 +2,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-<<<<<<< HEAD
-import { stats } from './components/stats';
-=======
 import stats from './components/stats';
->>>>>>> 8572dc6438fd8392ec3f5adb1149a12ea6ecd323
 
 function App() {
-  stats();
   return (
     <div className="App">
       <h1 className="welcome-header">Dungeons and Dragons Character/NPC Generator</h1>
@@ -20,21 +15,8 @@ function App() {
         <h1 className="name-header">Name:</h1>
         <div id="name-text" className="name-def"></div>
         <div id="surname-text" className="name-def"></div>
+        ${stats}
       </div>
-      <h1>Strength</h1>
-      <div id="str-text" className="stat-def">
-        <p id="str-p" className='stat-def'>${}</p>
-      </div>
-      <h1>Dexterity</h1>
-      <div id="dex-text" className="stat-def"></div>
-      <h1>Constitution</h1>
-      <div id="con-text" className="stat-def"></div>
-      <h1>Intelligence</h1>
-      <div id="int-text" className="stat-def"></div>
-      <h1>Wisdom</h1>
-      <div id="wis-text" className="stat-def"></div>
-      <h1>Charisma</h1>
-      <div id="cha-text" className="stat-def"></div>
     </div>
   );
 }
