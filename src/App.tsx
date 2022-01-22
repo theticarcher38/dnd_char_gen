@@ -2,14 +2,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import { stats } from './components/stats';
+=======
+import stats from './components/stats';
+>>>>>>> 8572dc6438fd8392ec3f5adb1149a12ea6ecd323
 
 function App() {
   stats();
   return (
     <div className="App">
       <h1 className="welcome-header">Dungeons and Dragons Character/NPC Generator</h1>
-      <button className="start-gen-btn" onClick={location.reload}>Generate Character</button>
+      <button className="start-gen-btn" onClick={() => window.location.reload()}>Generate Character</button>
       <div className="top-right-items">
         <h1 className="race-header">Race:</h1>
         <div id="race-text" className="race-def"></div>
@@ -18,7 +22,9 @@ function App() {
         <div id="surname-text" className="name-def"></div>
       </div>
       <h1>Strength</h1>
-      <div id="str-text" className="stat-def"></div>
+      <div id="str-text" className="stat-def">
+        <p id="str-p" className='stat-def'>${}</p>
+      </div>
       <h1>Dexterity</h1>
       <div id="dex-text" className="stat-def"></div>
       <h1>Constitution</h1>
